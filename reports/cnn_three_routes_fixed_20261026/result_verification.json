@@ -1,0 +1,18 @@
+{
+  "seen_test": {
+    "sequences_checked": 35,
+    "windows": 388054,
+    "saved_cnn_metrics_match": true,
+    "reference_sequence_and_summary_metrics_recomputed": true,
+    "labels_times_indices_gt_identical_between_models": true,
+    "reference_trajectory_reconstruction_identical": true
+  },
+  "unseen_test": {
+    "sequences_checked": 32,
+    "windows": 364722,
+    "saved_cnn_metrics_match": true,
+    "reference_sequence_and_summary_metrics_recomputed": true,
+    "labels_times_indices_gt_identical_between_models": true,
+    "reference_trajectory_reconstruction_identical": true
+  }
+}

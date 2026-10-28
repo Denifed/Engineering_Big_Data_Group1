@@ -1,0 +1,10 @@
+{
+  "status": "completed",
+  "model": "cnn",
+  "label_protocol": "window_mean_xy_velocity_v1",
+  "epochs_completed": 30,
+  "best_epoch": 30,
+  "best_val_mse": 0.09222355308470001,
+  "checkpoint_reload_passed": true,
+  "output": "E:\\codex_ws\\handoff_cnn_baseline\\results\\ronin_resnet18_npz_20261025\\cnn_mean_30epochs_20261025"
+}

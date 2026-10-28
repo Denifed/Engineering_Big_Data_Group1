@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "same_protocol_as_reference": true,
+  "data_files_match_reference": true,
+  "splits_match_reference": true,
+  "window_indices_and_labels_match_reference": true,
+  "same_order_every_epoch": true,
+  "checkpoint_reload_passed": true,
+  "evaluation_completed": true,
+  "all_three_complete_30_epochs": true,
+  "all_three_same_order_every_epoch": true,
+  "saved_metrics_recomputed": true,
+  "test_sequences": 67,
+  "reference_predictions_reused": true
+}

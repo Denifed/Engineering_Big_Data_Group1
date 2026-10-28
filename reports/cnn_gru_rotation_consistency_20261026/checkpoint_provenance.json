@@ -1,0 +1,23 @@
+{
+  "original": {
+    "checkpoint": "results\\fixed_resnet18_vs_cnn_gru_20261025\\cnn_gru\\checkpoint_best.pt",
+    "checkpoint_sha256": "21896d09ca15dde91cf63291f61f7c5fcebfdff4642571340653e05b814d4d68",
+    "learned_parameters_sha256": "c7a49c99f8c7e10c98edde8f0a0ffe223e3281e816c102efacba94235a653413",
+    "state_sha256": "81773cb2c20808f83bbd678f77cea7d9f8301fb91ad477e3c4bfc74394d08d20",
+    "epoch": 8
+  },
+  "mixed": {
+    "checkpoint": "results\\bn_calibration_diagnosis_20261026\\old_random_mse\\mixed_windows\\checkpoint_bn_calibrated.pt",
+    "checkpoint_sha256": "2c0275a752396ec4eeb96500c81b5e5c207aeff758102780f718e6fcd006bfc5",
+    "learned_parameters_sha256": "c7a49c99f8c7e10c98edde8f0a0ffe223e3281e816c102efacba94235a653413",
+    "state_sha256": "cc04af6fd9000acd2c9ebc469b4b881d02e160c189c123a14edcc2881fb6b81e",
+    "epoch": 8
+  },
+  "consecutive": {
+    "checkpoint": "results\\bn_calibration_diagnosis_20261026\\old_random_mse\\consecutive_segments\\checkpoint_bn_calibrated.pt",
+    "checkpoint_sha256": "98f4b87b30b4190a42c511c8bb773a3646a2073a25eaaf21887badd7ca467a56",
+    "learned_parameters_sha256": "c7a49c99f8c7e10c98edde8f0a0ffe223e3281e816c102efacba94235a653413",
+    "state_sha256": "0e643d7c3816c064d9613e1019030b79a20190cce3c4b2d44a1ba622b244dc52",
+    "epoch": 8
+  }
+}

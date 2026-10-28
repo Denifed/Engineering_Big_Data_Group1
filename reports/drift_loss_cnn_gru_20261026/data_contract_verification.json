@@ -1,0 +1,8 @@
+{
+  "original_window_indices_and_labels_unchanged": true,
+  "full_validation_unchanged": true,
+  "eligible_train_windows": 787920,
+  "used_train_windows": 785792,
+  "tail_windows_excluded": 2128,
+  "exclusion_percent": 0.27007818052594174
+}

@@ -1,0 +1,16 @@
+{
+  "seen_test": {
+    "sequences": 35,
+    "windows": 388054,
+    "labels_indices_timestamps_ground_truth_identical": true,
+    "resnet_saved_metrics_recomputed_match": true,
+    "cnn_saved_prediction_metrics_recomputed_match": true
+  },
+  "unseen_test": {
+    "sequences": 32,
+    "windows": 364722,
+    "labels_indices_timestamps_ground_truth_identical": true,
+    "resnet_saved_metrics_recomputed_match": true,
+    "cnn_saved_prediction_metrics_recomputed_match": true
+  }
+}

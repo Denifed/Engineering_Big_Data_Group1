@@ -1,0 +1,10 @@
+split,bn_state,single_rotation_consistency_RMSE_mps,definition
+val,original,0.17543896353832975,RMS component disagreement of inverse-rotated 90/180/270 predictions with original prediction
+val,mixed,0.1770137429954421,RMS component disagreement of inverse-rotated 90/180/270 predictions with original prediction
+val,consecutive,0.17485330138398178,RMS component disagreement of inverse-rotated 90/180/270 predictions with original prediction
+seen_test,original,0.16501667967543507,RMS component disagreement of inverse-rotated 90/180/270 predictions with original prediction
+seen_test,mixed,0.16687376142892052,RMS component disagreement of inverse-rotated 90/180/270 predictions with original prediction
+seen_test,consecutive,0.16483003486106695,RMS component disagreement of inverse-rotated 90/180/270 predictions with original prediction
+unseen_test,original,0.20145817536686894,RMS component disagreement of inverse-rotated 90/180/270 predictions with original prediction
+unseen_test,mixed,0.20344988684591947,RMS component disagreement of inverse-rotated 90/180/270 predictions with original prediction
+unseen_test,consecutive,0.2005714247979754,RMS component disagreement of inverse-rotated 90/180/270 predictions with original prediction

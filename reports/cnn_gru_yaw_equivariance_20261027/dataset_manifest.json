@@ -1,0 +1,11 @@
+{
+  "train_windows": 787920,
+  "val_windows": 136686,
+  "train_sequences": 72,
+  "val_sequences": 13,
+  "train_index_sha256": "c967e56e0b9f31367f7690ef30e9b55ab3b656f80b4ec946290ea4a5ba29f416",
+  "train_targets_sha256": "96b25846b85d4d8a714089046c51e5d75ab601b7679d5c0ef75e843bc896cc64",
+  "val_index_sha256": "0395dad7e73eae54c22e20da07d7ad55edf7adf8c3e4b7b1db930b310adc3fcc",
+  "val_targets_sha256": "31751e62c9a24a462adb2e0bcc8662939a47586c32c8f7bbfb2fd4e5ab9dc97b",
+  "filtered_windows": 80
+}

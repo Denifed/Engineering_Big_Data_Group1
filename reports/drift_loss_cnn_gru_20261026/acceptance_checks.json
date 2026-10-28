@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "smoke_only": false,
+  "same_initialization": true,
+  "same_segments_and_orders": true,
+  "same_optimization_steps": true,
+  "same_validation_ATE_selection": true,
+  "both_checkpoints_reloaded": true,
+  "saved_validation_ATE_recomputed": true,
+  "data_and_splits_match_previous": true,
+  "evaluation_completed": true,
+  "saved_test_metrics_recomputed": true,
+  "test_sequences": 67
+}

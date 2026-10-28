@@ -1,0 +1,4 @@
+﻿split,files,ok,review,errors,total_frames,frames_gt_3_estimated,max_speed
+train,85,0,85,0,9263475,854,91.85863374301732
+seen_test,35,0,35,0,3887384,8,95.28854287494589
+unseen_test,32,0,32,0,3653480,0,2.2808424717767117

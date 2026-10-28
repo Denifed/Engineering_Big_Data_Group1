@@ -1,0 +1,84 @@
+{
+  "status": "completed",
+  "metrics": [
+    {
+      "split": "val",
+      "variant": "original_single",
+      "sequences": 13,
+      "windows": 136686,
+      "MSE": 0.09112468524094702,
+      "RMSE": 0.30186865561191845,
+      "MAE": 0.20243525848405536,
+      "ATE_official_m": 7.393813671500043,
+      "RTE_60s_official_m": 6.522777952830391,
+      "endpoint_error_m": 13.499582599583725,
+      "mean_velocity_bias_norm_mps": 0.024940088145025394
+    },
+    {
+      "split": "val",
+      "variant": "original_c4",
+      "sequences": 13,
+      "windows": 136686,
+      "MSE": 0.08031271265582428,
+      "RMSE": 0.28339497641246975,
+      "MAE": 0.18986515320681352,
+      "ATE_official_m": 5.882976106634306,
+      "RTE_60s_official_m": 6.326705473665529,
+      "endpoint_error_m": 8.72736260113277,
+      "mean_velocity_bias_norm_mps": 0.017296033595296134
+    },
+    {
+      "split": "val",
+      "variant": "mixed_single",
+      "sequences": 13,
+      "windows": 136686,
+      "MSE": 0.09147914961761804,
+      "RMSE": 0.30245520266250675,
+      "MAE": 0.2029051879426755,
+      "ATE_official_m": 7.758444075652582,
+      "RTE_60s_official_m": 6.55256321859352,
+      "endpoint_error_m": 14.450900674488567,
+      "mean_velocity_bias_norm_mps": 0.026074382799173366
+    },
+    {
+      "split": "val",
+      "variant": "mixed_c4",
+      "sequences": 13,
+      "windows": 136686,
+      "MSE": 0.08051347592307193,
+      "RMSE": 0.2837489663823851,
+      "MAE": 0.19002922770690783,
+      "ATE_official_m": 5.881297313764302,
+      "RTE_60s_official_m": 6.334004317765776,
+      "endpoint_error_m": 8.664233460036352,
+      "mean_velocity_bias_norm_mps": 0.017202851057757675
+    },
+    {
+      "split": "val",
+      "variant": "consecutive_single",
+      "sequences": 13,
+      "windows": 136686,
+      "MSE": 0.09139508981246124,
+      "RMSE": 0.3023162083191393,
+      "MAE": 0.20305735354229426,
+      "ATE_official_m": 7.579215984560464,
+      "RTE_60s_official_m": 6.600459518710138,
+      "endpoint_error_m": 14.358255737285747,
+      "mean_velocity_bias_norm_mps": 0.026210395717676756
+    },
+    {
+      "split": "val",
+      "variant": "consecutive_c4",
+      "sequences": 13,
+      "windows": 136686,
+      "MSE": 0.08069482205895533,
+      "RMSE": 0.2840683404727731,
+      "MAE": 0.19073263525728218,
+      "ATE_official_m": 5.929379463919513,
+      "RTE_60s_official_m": 6.390177149505259,
+      "endpoint_error_m": 8.59429335347803,
+      "mean_velocity_bias_norm_mps": 0.01710600045823456
+    }
+  ],
+  "angles_and_conditions_unchanged_for_tests": true
+}

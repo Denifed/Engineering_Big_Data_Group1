@@ -1,0 +1,25 @@
+{
+  "note": "Descriptive correlations over 30 epochs, not causal evidence or independent repeated trials.",
+  "conditions": {
+    "mse_control": {
+      "best_epoch": 15,
+      "best_ATE": 8.088999970158792,
+      "best_RMSE": 0.30709700570157383,
+      "last_ATE": 11.397163177344112,
+      "validation_ATE_vs_bias_correlation": 0.9939540010455922,
+      "validation_ATE_vs_velocity_MSE_correlation": 0.5964095029346083,
+      "final_train_velocity_MSE": 0.026354462114319153,
+      "final_train_bias_penalty": 0.017160305056261607
+    },
+    "bias_constraint": {
+      "best_epoch": 22,
+      "best_ATE": 7.634885798170075,
+      "best_RMSE": 0.3134074395331262,
+      "last_ATE": 9.198237285322602,
+      "validation_ATE_vs_bias_correlation": 0.9939194419112265,
+      "validation_ATE_vs_velocity_MSE_correlation": 0.5982495066893718,
+      "final_train_velocity_MSE": 0.02848904117933361,
+      "final_train_bias_penalty": 0.015716607524082823
+    }
+  }
+}

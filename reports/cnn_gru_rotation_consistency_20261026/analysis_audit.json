@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "experiment_audit": "final_audit.json",
+  "analysis_script_sha256": "b8254e57eb759dfc3377e9257f0cd2ec389e80eafcf8fa5145dcbdfbcc685720",
+  "source_snapshot_matches": true,
+  "original_evaluation_sources_unchanged": true,
+  "all_gallery_links_exist": true,
+  "all_67_test_sequence_gallery_files_exist": true,
+  "verified_png_files": 83,
+  "prediction_files": 480,
+  "aligned_branch_files": 240,
+  "report_sha256": "b343d313c56ee25ff91d9d36f2c79ae8b0baaac1aa9f569e365f50807fb6ecd6",
+  "plan_sha256": "b741e40dbe71659b9c5001a45c84a78a01b44423393fd39c380edb786c37b249"
+}

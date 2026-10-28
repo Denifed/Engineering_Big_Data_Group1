@@ -1,0 +1,5 @@
+{
+  "state_sha256": "075e8ba4a235978c91853354fe3637b76ff198a1fcf12d75ef2f7b7bf50b121c",
+  "parameters": 78370,
+  "architecture": "unchanged CNNGRU; no attention or new inference parameters"
+}

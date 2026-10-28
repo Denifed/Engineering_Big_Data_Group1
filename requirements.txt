@@ -1,0 +1,8 @@
+# Core environment used by the active NPZ pipeline (not every upstream RoNIN tool).
+numpy==1.23.5
+scipy==1.10.1
+matplotlib==3.7.2
+Pillow==12.3.0
+# Install a CUDA-enabled PyTorch build separately when running fixed GPU experiments.
+# Exact recorded build: torch==2.14.0+cu126 (see environment/).
+torch>=2.0

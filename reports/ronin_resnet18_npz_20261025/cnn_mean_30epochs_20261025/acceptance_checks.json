@@ -1,0 +1,9 @@
+{
+  "full_30_epochs_verified": true,
+  "all_epochs_train_windows": 787920,
+  "all_epochs_val_windows": 136686,
+  "checkpoint_reload_passed": true,
+  "training_sources_and_splits_unchanged": true,
+  "official_resnet_sources_unchanged": true,
+  "best_epoch": 30
+}

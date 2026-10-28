@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "report_sha256": "46c8a2927a0e06494830c4d87c5e057cce7276457d39bb67c604ddd3e008c5aa",
+  "analysis_script_sha256": "bc134e5358f3b585520a18b474e2564eec37f530aa4b9a0a695bae1bebb59d51",
+  "gallery_links_verified": true,
+  "all_test_sequences_in_gallery": 67,
+  "plot_files": 71
+}

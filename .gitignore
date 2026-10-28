@@ -1,0 +1,44 @@
+# Complete local experiment/data archive. Lightweight publishable evidence is in reports/.
+/results/
+/cnn_baseline/runs/
+/RoNIN_Team_Delivery/dataset/
+
+# Large data, model and prediction files wherever they occur.
+*.npz
+*.npy
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.onnx
+*.zip
+*.7z
+*.tar
+*.gz
+
+# Python, environments and editors.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local credentials/configuration.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+
+# Generated private validation records.
+/manifests/local_validation*.json

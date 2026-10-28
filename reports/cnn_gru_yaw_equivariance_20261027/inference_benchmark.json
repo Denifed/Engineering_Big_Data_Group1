@@ -1,0 +1,34 @@
+{
+  "yaw_augmentation": {
+    "single": {
+      "batch_size": 256,
+      "median_batch_ms": 10.78475000031176,
+      "p90_batch_ms": 14.079439998567977,
+      "median_ms_per_window": 0.04212792968871781
+    },
+    "c4": {
+      "batch_size": 256,
+      "median_batch_ms": 8.806399999230052,
+      "p90_batch_ms": 11.530920000404876,
+      "median_ms_per_window": 0.03439999999699239
+    },
+    "c4_to_single_median_ratio": 0.8165604208697913,
+    "scope": "same validation inputs; warmed GPU; excludes disk, trajectory reconstruction and plotting"
+  },
+  "yaw_consistency": {
+    "single": {
+      "batch_size": 256,
+      "median_batch_ms": 1.8529000008129515,
+      "p90_batch_ms": 2.843239999856451,
+      "median_ms_per_window": 0.007237890628175592
+    },
+    "c4": {
+      "batch_size": 256,
+      "median_batch_ms": 8.264600000075006,
+      "p90_batch_ms": 10.521530001460633,
+      "median_ms_per_window": 0.032283593750292994
+    },
+    "c4_to_single_median_ratio": 4.460359434642426,
+    "scope": "same validation inputs; warmed GPU; excludes disk, trajectory reconstruction and plotting"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "smoke_only": false,
+  "same_initialization": true,
+  "same_anchor_order": true,
+  "same_rotations": true,
+  "same_network_batch_organization": true,
+  "same_optimization_steps": true,
+  "same_MSE_selection": true,
+  "checkpoints_reloaded": true,
+  "full_validation_metrics_recomputed": true
+}

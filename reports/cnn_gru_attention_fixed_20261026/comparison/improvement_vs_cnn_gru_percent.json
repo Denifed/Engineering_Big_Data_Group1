@@ -1,0 +1,21 @@
+{
+  "definition": "100 * (CNN-GRU metric - Attention metric) / CNN-GRU metric; positive means error reduction",
+  "rows": [
+    {
+      "split": "seen_test",
+      "MSE": -0.2936579490261449,
+      "RMSE": -0.1467213387568369,
+      "MAE": 1.1542327597315252,
+      "ATE_official_m": -1.8967230932234338,
+      "RTE_60s_official_m": 2.4242904838040857
+    },
+    {
+      "split": "unseen_test",
+      "MSE": -0.15319291731202897,
+      "RMSE": -0.07656714601677174,
+      "MAE": 1.805173271372408,
+      "ATE_official_m": -13.063002359993032,
+      "RTE_60s_official_m": -2.124557086033397
+    }
+  ]
+}

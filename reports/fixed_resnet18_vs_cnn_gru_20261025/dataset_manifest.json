@@ -1,0 +1,442 @@
+{
+  "train": {
+    "windows": 787920,
+    "index_sha256": "c967e56e0b9f31367f7690ef30e9b55ab3b656f80b4ec946290ea4a5ba29f416",
+    "target_sha256": "96b25846b85d4d8a714089046c51e5d75ab601b7679d5c0ef75e843bc896cc64",
+    "sequences": [
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a000_1.npz",
+        "frames": 62340,
+        "windows": 6214
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a000_10.npz",
+        "frames": 90042,
+        "windows": 8985
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a000_2.npz",
+        "frames": 49630,
+        "windows": 4943
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a000_3.npz",
+        "frames": 60007,
+        "windows": 5981
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a000_4.npz",
+        "frames": 89358,
+        "windows": 8916
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a000_5.npz",
+        "frames": 62044,
+        "windows": 6185
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a000_6.npz",
+        "frames": 53379,
+        "windows": 5318
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a000_8.npz",
+        "frames": 45275,
+        "windows": 4488
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a000_9.npz",
+        "frames": 54139,
+        "windows": 5394
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a001_1.npz",
+        "frames": 91102,
+        "windows": 9091
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a001_3.npz",
+        "frames": 79134,
+        "windows": 7894
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a002_1.npz",
+        "frames": 202970,
+        "windows": 20277
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a002_2.npz",
+        "frames": 225732,
+        "windows": 22554
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a003_1.npz",
+        "frames": 77448,
+        "windows": 7725
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a003_2.npz",
+        "frames": 145482,
+        "windows": 14529
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a005_1.npz",
+        "frames": 63062,
+        "windows": 6287
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a007_2.npz",
+        "frames": 122453,
+        "windows": 12226
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a009_2.npz",
+        "frames": 133027,
+        "windows": 13283
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a009_3.npz",
+        "frames": 110514,
+        "windows": 11032
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a010_1.npz",
+        "frames": 109931,
+        "windows": 10974
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a010_3.npz",
+        "frames": 102814,
+        "windows": 10262
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a011_1.npz",
+        "frames": 81269,
+        "windows": 8107
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a011_3.npz",
+        "frames": 167602,
+        "windows": 16741
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a012_1.npz",
+        "frames": 71659,
+        "windows": 7146
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a012_3.npz",
+        "frames": 92210,
+        "windows": 9201
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a013_1.npz",
+        "frames": 84843,
+        "windows": 8465
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a013_3.npz",
+        "frames": 114125,
+        "windows": 11393
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a014_1.npz",
+        "frames": 77128,
+        "windows": 7693
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a014_3.npz",
+        "frames": 120293,
+        "windows": 12010
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a015_1.npz",
+        "frames": 65251,
+        "windows": 6506
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a015_2.npz",
+        "frames": 106637,
+        "windows": 10644
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a015_3.npz",
+        "frames": 129950,
+        "windows": 12975
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a016_3.npz",
+        "frames": 157414,
+        "windows": 15702
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a017_1.npz",
+        "frames": 82818,
+        "windows": 8262
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a017_3.npz",
+        "frames": 148738,
+        "windows": 14854
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a018_2.npz",
+        "frames": 168934,
+        "windows": 16874
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a018_3.npz",
+        "frames": 137812,
+        "windows": 13762
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a020_1.npz",
+        "frames": 100983,
+        "windows": 10059
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a020_3.npz",
+        "frames": 134010,
+        "windows": 13381
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a022_1.npz",
+        "frames": 70877,
+        "windows": 7068
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a022_3.npz",
+        "frames": 143741,
+        "windows": 14355
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a023_2.npz",
+        "frames": 147383,
+        "windows": 14719
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a023_3.npz",
+        "frames": 118087,
+        "windows": 11789
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a026_1.npz",
+        "frames": 83573,
+        "windows": 8338
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a026_3.npz",
+        "frames": 166250,
+        "windows": 16605
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a027_1.npz",
+        "frames": 73939,
+        "windows": 7374
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a027_3.npz",
+        "frames": 152653,
+        "windows": 15246
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a028_1.npz",
+        "frames": 98514,
+        "windows": 9832
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a028_3.npz",
+        "frames": 131318,
+        "windows": 13112
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a033_1.npz",
+        "frames": 91473,
+        "windows": 9128
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a033_3.npz",
+        "frames": 119632,
+        "windows": 11944
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a034_1.npz",
+        "frames": 135033,
+        "windows": 13484
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a034_3.npz",
+        "frames": 171934,
+        "windows": 17174
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a036_1.npz",
+        "frames": 90389,
+        "windows": 9019
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a036_3.npz",
+        "frames": 120835,
+        "windows": 12064
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a037_3.npz",
+        "frames": 168717,
+        "windows": 16852
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a038_1.npz",
+        "frames": 139785,
+        "windows": 13959
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a038_3.npz",
+        "frames": 114044,
+        "windows": 11385
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a039_1.npz",
+        "frames": 94135,
+        "windows": 9394
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a039_2.npz",
+        "frames": 114596,
+        "windows": 11440
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a040_2.npz",
+        "frames": 117078,
+        "windows": 11688
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a040_3.npz",
+        "frames": 97725,
+        "windows": 9753
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a043_1.npz",
+        "frames": 63667,
+        "windows": 6347
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a044_1.npz",
+        "frames": 83875,
+        "windows": 8368
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a044_3.npz",
+        "frames": 124859,
+        "windows": 12466
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a045_1.npz",
+        "frames": 107783,
+        "windows": 10759
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a045_2.npz",
+        "frames": 124804,
+        "windows": 12461
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a045_3.npz",
+        "frames": 138471,
+        "windows": 13828
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a046_1.npz",
+        "frames": 84144,
+        "windows": 8395
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a046_3.npz",
+        "frames": 106066,
+        "windows": 10587
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a056_1.npz",
+        "frames": 88460,
+        "windows": 8826
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a056_3.npz",
+        "frames": 138680,
+        "windows": 13828
+      }
+    ]
+  },
+  "val": {
+    "windows": 136686,
+    "index_sha256": "0395dad7e73eae54c22e20da07d7ad55edf7adf8c3e4b7b1db930b310adc3fcc",
+    "target_sha256": "31751e62c9a24a462adb2e0bcc8662939a47586c32c8f7bbfb2fd4e5ab9dc97b",
+    "sequences": [
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a004_2.npz",
+        "frames": 136887,
+        "windows": 13669
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a021_1.npz",
+        "frames": 69911,
+        "windows": 6972
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a021_3.npz",
+        "frames": 135908,
+        "windows": 13571
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a025_1.npz",
+        "frames": 101832,
+        "windows": 10164
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a025_3.npz",
+        "frames": 162198,
+        "windows": 16200
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a030_1.npz",
+        "frames": 79872,
+        "windows": 7968
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a031_1.npz",
+        "frames": 74882,
+        "windows": 7469
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a031_3.npz",
+        "frames": 130442,
+        "windows": 13025
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a035_1.npz",
+        "frames": 83738,
+        "windows": 8354
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a047_1.npz",
+        "frames": 101468,
+        "windows": 10127
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a047_3.npz",
+        "frames": 134047,
+        "windows": 13385
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a059_1.npz",
+        "frames": 75278,
+        "windows": 7508
+      },
+      {
+        "sequence": "E:\\codex_ws\\handoff_cnn_baseline\\RoNIN_Team_Delivery\\dataset\\train\\a059_3.npz",
+        "frames": 82933,
+        "windows": 8274
+      }
+    ]
+  },
+  "filtered_train_windows": 80
+}

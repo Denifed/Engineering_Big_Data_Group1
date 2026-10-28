@@ -1,0 +1,35 @@
+{
+  "status": "completed",
+  "model": "resnet18",
+  "epochs_completed": 30,
+  "best_epoch": 13,
+  "best_val_mse": 0.08518215943324177,
+  "parameter_count": 4634882,
+  "protocol_sha256": "106e280b8667d13b15d405aa5d603b3ad4f5a91809cc924dcb28deb30dcb3892",
+  "checkpoint_reload_passed": true,
+  "training_wall_seconds": 7050.82906139968,
+  "test_metrics": [
+    {
+      "split": "seen_test",
+      "model": "resnet18",
+      "sequences": 35,
+      "windows": 388054,
+      "MSE": 0.035563806585657276,
+      "RMSE": 0.18858368589477,
+      "MAE": 0.11628644977076322,
+      "ATE_official_m": 5.468435118095496,
+      "RTE_60s_official_m": 3.6483539420918403
+    },
+    {
+      "split": "unseen_test",
+      "model": "resnet18",
+      "sequences": 32,
+      "windows": 364722,
+      "MSE": 0.07484390731884755,
+      "RMSE": 0.27357614537610464,
+      "MAE": 0.17087036750628667,
+      "ATE_official_m": 9.895097919977893,
+      "RTE_60s_official_m": 5.817574867245668
+    }
+  ]
+}

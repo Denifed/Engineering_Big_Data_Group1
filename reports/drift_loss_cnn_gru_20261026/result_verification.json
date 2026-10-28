@@ -1,0 +1,30 @@
+{
+  "mse_control/seen_test": {
+    "sequences_checked": 35,
+    "windows": 388054,
+    "saved_metrics_match": true,
+    "labels_times_indices_gt_identical_between_conditions": true,
+    "saved_residual_diagnostics_match": true
+  },
+  "bias_constraint/seen_test": {
+    "sequences_checked": 35,
+    "windows": 388054,
+    "saved_metrics_match": true,
+    "labels_times_indices_gt_identical_between_conditions": true,
+    "saved_residual_diagnostics_match": true
+  },
+  "mse_control/unseen_test": {
+    "sequences_checked": 32,
+    "windows": 364722,
+    "saved_metrics_match": true,
+    "labels_times_indices_gt_identical_between_conditions": true,
+    "saved_residual_diagnostics_match": true
+  },
+  "bias_constraint/unseen_test": {
+    "sequences_checked": 32,
+    "windows": 364722,
+    "saved_metrics_match": true,
+    "labels_times_indices_gt_identical_between_conditions": true,
+    "saved_residual_diagnostics_match": true
+  }
+}

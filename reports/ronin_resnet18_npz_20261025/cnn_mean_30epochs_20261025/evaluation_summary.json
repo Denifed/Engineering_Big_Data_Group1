@@ -1,0 +1,80 @@
+{
+  "status": "completed",
+  "model": "CNN",
+  "label_protocol": "window_mean_xy_velocity_v1",
+  "epochs_completed": 30,
+  "best_epoch": 30,
+  "best_val_mse": 0.09222355308470001,
+  "test_metrics": [
+    {
+      "split": "seen_test",
+      "model": "CNN",
+      "sequences": 35,
+      "windows": 388054,
+      "MSE": 0.04653751522328542,
+      "RMSE": 0.2157255553319667,
+      "MAE": 0.14304120542220133,
+      "ATE_official_m": 7.61805617409844,
+      "RTE_60s_official_m": 4.43339274259864
+    },
+    {
+      "split": "seen_test",
+      "model": "RoNIN ResNet18",
+      "sequences": 35,
+      "windows": 388054,
+      "MSE": 0.030022475079116904,
+      "RMSE": 0.17326994857480885,
+      "MAE": 0.11359748764301329,
+      "ATE_official_m": 5.59615950055756,
+      "RTE_60s_official_m": 3.559606288141235
+    },
+    {
+      "split": "seen_test",
+      "model": "Zero velocity",
+      "sequences": 35,
+      "windows": 388054,
+      "MSE": 0.36063771529193567,
+      "RMSE": 0.6005311942704855,
+      "MAE": 0.4302355104651978,
+      "ATE_official_m": null,
+      "RTE_60s_official_m": null
+    },
+    {
+      "split": "unseen_test",
+      "model": "CNN",
+      "sequences": 32,
+      "windows": 364722,
+      "MSE": 0.08767111944828632,
+      "RMSE": 0.29609309253727334,
+      "MAE": 0.1953906269145822,
+      "ATE_official_m": 9.42528963006692,
+      "RTE_60s_official_m": 6.426908068308046
+    },
+    {
+      "split": "unseen_test",
+      "model": "RoNIN ResNet18",
+      "sequences": 32,
+      "windows": 364722,
+      "MSE": 0.059067495275815965,
+      "RMSE": 0.24303805314356838,
+      "MAE": 0.15674906313214634,
+      "ATE_official_m": 7.419700275337409,
+      "RTE_60s_official_m": 5.268800635450011
+    },
+    {
+      "split": "unseen_test",
+      "model": "Zero velocity",
+      "sequences": 32,
+      "windows": 364722,
+      "MSE": 0.42827879988929185,
+      "RMSE": 0.6544301336959445,
+      "MAE": 0.4790979692436623,
+      "ATE_official_m": null,
+      "RTE_60s_official_m": null
+    }
+  ],
+  "training_wall_seconds": 8602.829861500184,
+  "epochs_with_elapsed_over_300s": [
+    26
+  ]
+}

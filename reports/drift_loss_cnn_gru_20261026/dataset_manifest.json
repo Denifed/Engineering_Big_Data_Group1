@@ -1,0 +1,41 @@
+{
+  "train": {
+    "contiguous_runs": 76,
+    "eligible_windows": 787920,
+    "used_windows": 785792,
+    "dropped_run_tail_windows": 2128,
+    "segments": 12278,
+    "segment_length": 64,
+    "index_sha256": "c967e56e0b9f31367f7690ef30e9b55ab3b656f80b4ec946290ea4a5ba29f416",
+    "target_sha256": "96b25846b85d4d8a714089046c51e5d75ab601b7679d5c0ef75e843bc896cc64",
+    "segment_sha256": "d8d11a5ee0616b9b33cdf1ba4fd8c963bedf01b6ee7e21750e1bd8a3c0eb4577",
+    "prediction_spacing_sha256": "1b86bd4dd32323adeffee09682a4f975c35b62f365ed162600d04e74d5db5194",
+    "duration_seconds_min": 3.1999999994877726,
+    "duration_seconds_max": 3.200000000651926,
+    "duration_seconds_mean": 3.200000000137477,
+    "dt_definition": "timestamps[start+step]-timestamps[start], not IMU window duration",
+    "residual_target": "same window-mean XY velocity used by the previous protocol"
+  },
+  "validation": {
+    "windows": 136686,
+    "index_sha256": "0395dad7e73eae54c22e20da07d7ad55edf7adf8c3e4b7b1db930b310adc3fcc",
+    "target_sha256": "31751e62c9a24a462adb2e0bcc8662939a47586c32c8f7bbfb2fd4e5ab9dc97b",
+    "sequences": [
+      "a004_2",
+      "a021_1",
+      "a021_3",
+      "a025_1",
+      "a025_3",
+      "a030_1",
+      "a031_1",
+      "a031_3",
+      "a035_1",
+      "a047_1",
+      "a047_3",
+      "a059_1",
+      "a059_3"
+    ]
+  },
+  "filtered_train_windows": 80,
+  "data_files_match_previous_experiments": true
+}

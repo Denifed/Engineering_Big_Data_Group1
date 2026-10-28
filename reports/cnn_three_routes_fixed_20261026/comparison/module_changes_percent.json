@@ -1,0 +1,45 @@
+{
+  "definition": "100*(before_error-after_error)/before_error; positive means error reduction",
+  "rows": [
+    {
+      "split": "seen_test",
+      "before": "cnn",
+      "after": "cnn_gru",
+      "MSE": 5.857588573233001,
+      "RMSE": 2.97298756183049,
+      "MAE": 6.200127608034976,
+      "ATE_official_m": 8.050938095510059,
+      "RTE_60s_official_m": 7.242540112222354
+    },
+    {
+      "split": "unseen_test",
+      "before": "cnn",
+      "after": "cnn_gru",
+      "MSE": 3.1477387463811453,
+      "RMSE": 1.5864535474821762,
+      "MAE": 3.935960700657558,
+      "ATE_official_m": 13.354292607292129,
+      "RTE_60s_official_m": 9.021550998621874
+    },
+    {
+      "split": "seen_test",
+      "before": "cnn_gru",
+      "after": "cnn_gru_attention",
+      "MSE": -0.2936579490261449,
+      "RMSE": -0.1467213387568369,
+      "MAE": 1.1542327597315252,
+      "ATE_official_m": -1.8967230932234338,
+      "RTE_60s_official_m": 2.4242904838040857
+    },
+    {
+      "split": "unseen_test",
+      "before": "cnn_gru",
+      "after": "cnn_gru_attention",
+      "MSE": -0.15319291731202897,
+      "RMSE": -0.07656714601677174,
+      "MAE": 1.805173271372408,
+      "ATE_official_m": -13.063002359993032,
+      "RTE_60s_official_m": -2.124557086033397
+    }
+  ]
+}

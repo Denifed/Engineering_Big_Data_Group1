@@ -1,0 +1,182 @@
+[
+  {
+    "split": "val",
+    "variant": "original_single",
+    "sequences": 13,
+    "windows": 136686,
+    "metrics_recomputed": true,
+    "trajectories_reconstructed": true,
+    "ensemble_recomputed_from_four_branches": true,
+    "labels_and_indices_identical": true
+  },
+  {
+    "split": "val",
+    "variant": "original_c4",
+    "sequences": 13,
+    "windows": 136686,
+    "metrics_recomputed": true,
+    "trajectories_reconstructed": true,
+    "ensemble_recomputed_from_four_branches": true,
+    "labels_and_indices_identical": true
+  },
+  {
+    "split": "val",
+    "variant": "mixed_single",
+    "sequences": 13,
+    "windows": 136686,
+    "metrics_recomputed": true,
+    "trajectories_reconstructed": true,
+    "ensemble_recomputed_from_four_branches": true,
+    "labels_and_indices_identical": true
+  },
+  {
+    "split": "val",
+    "variant": "mixed_c4",
+    "sequences": 13,
+    "windows": 136686,
+    "metrics_recomputed": true,
+    "trajectories_reconstructed": true,
+    "ensemble_recomputed_from_four_branches": true,
+    "labels_and_indices_identical": true
+  },
+  {
+    "split": "val",
+    "variant": "consecutive_single",
+    "sequences": 13,
+    "windows": 136686,
+    "metrics_recomputed": true,
+    "trajectories_reconstructed": true,
+    "ensemble_recomputed_from_four_branches": true,
+    "labels_and_indices_identical": true
+  },
+  {
+    "split": "val",
+    "variant": "consecutive_c4",
+    "sequences": 13,
+    "windows": 136686,
+    "metrics_recomputed": true,
+    "trajectories_reconstructed": true,
+    "ensemble_recomputed_from_four_branches": true,
+    "labels_and_indices_identical": true
+  },
+  {
+    "split": "seen_test",
+    "variant": "original_single",
+    "sequences": 35,
+    "windows": 388054,
+    "metrics_recomputed": true,
+    "trajectories_reconstructed": true,
+    "ensemble_recomputed_from_four_branches": true,
+    "labels_and_indices_identical": true
+  },
+  {
+    "split": "seen_test",
+    "variant": "original_c4",
+    "sequences": 35,
+    "windows": 388054,
+    "metrics_recomputed": true,
+    "trajectories_reconstructed": true,
+    "ensemble_recomputed_from_four_branches": true,
+    "labels_and_indices_identical": true
+  },
+  {
+    "split": "seen_test",
+    "variant": "mixed_single",
+    "sequences": 35,
+    "windows": 388054,
+    "metrics_recomputed": true,
+    "trajectories_reconstructed": true,
+    "ensemble_recomputed_from_four_branches": true,
+    "labels_and_indices_identical": true
+  },
+  {
+    "split": "seen_test",
+    "variant": "mixed_c4",
+    "sequences": 35,
+    "windows": 388054,
+    "metrics_recomputed": true,
+    "trajectories_reconstructed": true,
+    "ensemble_recomputed_from_four_branches": true,
+    "labels_and_indices_identical": true
+  },
+  {
+    "split": "seen_test",
+    "variant": "consecutive_single",
+    "sequences": 35,
+    "windows": 388054,
+    "metrics_recomputed": true,
+    "trajectories_reconstructed": true,
+    "ensemble_recomputed_from_four_branches": true,
+    "labels_and_indices_identical": true
+  },
+  {
+    "split": "seen_test",
+    "variant": "consecutive_c4",
+    "sequences": 35,
+    "windows": 388054,
+    "metrics_recomputed": true,
+    "trajectories_reconstructed": true,
+    "ensemble_recomputed_from_four_branches": true,
+    "labels_and_indices_identical": true
+  },
+  {
+    "split": "unseen_test",
+    "variant": "original_single",
+    "sequences": 32,
+    "windows": 364722,
+    "metrics_recomputed": true,
+    "trajectories_reconstructed": true,
+    "ensemble_recomputed_from_four_branches": true,
+    "labels_and_indices_identical": true
+  },
+  {
+    "split": "unseen_test",
+    "variant": "original_c4",
+    "sequences": 32,
+    "windows": 364722,
+    "metrics_recomputed": true,
+    "trajectories_reconstructed": true,
+    "ensemble_recomputed_from_four_branches": true,
+    "labels_and_indices_identical": true
+  },
+  {
+    "split": "unseen_test",
+    "variant": "mixed_single",
+    "sequences": 32,
+    "windows": 364722,
+    "metrics_recomputed": true,
+    "trajectories_reconstructed": true,
+    "ensemble_recomputed_from_four_branches": true,
+    "labels_and_indices_identical": true
+  },
+  {
+    "split": "unseen_test",
+    "variant": "mixed_c4",
+    "sequences": 32,
+    "windows": 364722,
+    "metrics_recomputed": true,
+    "trajectories_reconstructed": true,
+    "ensemble_recomputed_from_four_branches": true,
+    "labels_and_indices_identical": true
+  },
+  {
+    "split": "unseen_test",
+    "variant": "consecutive_single",
+    "sequences": 32,
+    "windows": 364722,
+    "metrics_recomputed": true,
+    "trajectories_reconstructed": true,
+    "ensemble_recomputed_from_four_branches": true,
+    "labels_and_indices_identical": true
+  },
+  {
+    "split": "unseen_test",
+    "variant": "consecutive_c4",
+    "sequences": 32,
+    "windows": 364722,
+    "metrics_recomputed": true,
+    "trajectories_reconstructed": true,
+    "ensemble_recomputed_from_four_branches": true,
+    "labels_and_indices_identical": true
+  }
+]

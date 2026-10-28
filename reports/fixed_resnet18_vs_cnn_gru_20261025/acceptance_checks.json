@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "same_protocol": true,
+  "same_order_every_epoch": true,
+  "complete_epochs": true,
+  "same_sample_counts": true,
+  "both_checkpoints_reloaded": true,
+  "smoke_only": false
+}

@@ -1,0 +1,6 @@
+# Observed local runtime package versions, not a guaranteed cross-platform installer.
+torch==2.14.0+cu126
+numpy==1.23.5
+scipy==1.10.1
+matplotlib==3.7.2
+Pillow==12.3.0

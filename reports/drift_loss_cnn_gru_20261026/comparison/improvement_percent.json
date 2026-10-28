@@ -1,0 +1,23 @@
+{
+  "definition": "100*(control_error-improved_error)/control_error; positive means lower error",
+  "rows": [
+    {
+      "split": "seen_test",
+      "RMSE": 0.1846641439596942,
+      "MAE": 0.8138416885386999,
+      "ATE_official_m": 9.308905975884352,
+      "RTE_60s_official_m": 8.827770464464127,
+      "endpoint_error_m": 2.1938431570443306,
+      "mean_velocity_bias_norm_mps": 7.116755779303357
+    },
+    {
+      "split": "unseen_test",
+      "RMSE": -0.6518191045953966,
+      "MAE": 1.3044010762176694,
+      "ATE_official_m": 3.522265691562709,
+      "RTE_60s_official_m": 6.341205559034515,
+      "endpoint_error_m": -5.883221612087228,
+      "mean_velocity_bias_norm_mps": -1.8137811688829555
+    }
+  ]
+}

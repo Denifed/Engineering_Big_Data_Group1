@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "baseline_files_unchanged": 390,
+  "training_source_and_split_fingerprints_unchanged": true,
+  "checkpoints": {
+    "best_epoch": 6,
+    "last_epoch": 30,
+    "strict_reload_and_inference_passed": true
+  },
+  "counts": {
+    "seen_test": {
+      "sequences": 35,
+      "attention_plots": 35,
+      "prediction_npz": 35,
+      "comparison_plots": 35,
+      "windows": 388054
+    },
+    "unseen_test": {
+      "sequences": 32,
+      "attention_plots": 32,
+      "prediction_npz": 32,
+      "comparison_plots": 32,
+      "windows": 364722
+    }
+  },
+  "all_png_files_valid": 204,
+  "gallery_static_links_exist": true,
+  "all_saved_prediction_metrics_recomputed": true,
+  "protocol_sha256": "106e280b8667d13b15d405aa5d603b3ad4f5a91809cc924dcb28deb30dcb3892"
+}

@@ -1,0 +1,5 @@
+split,improved,control,RMSE_error_reduction_percent,ATE_official_m_error_reduction_percent,RTE_60s_official_m_error_reduction_percent,endpoint_error_m_error_reduction_percent,mean_velocity_bias_norm_mps_error_reduction_percent
+seen_test,augmentation_c4,old_c4,8.474298883376935,10.007035562128983,10.410721569140938,12.569216744043155,13.145262606471741
+unseen_test,augmentation_c4,old_c4,10.376241508072187,15.933661449251717,11.595822309275734,18.631291584395633,16.30330074983022
+seen_test,consistency_c4,augmentation_c4,-0.78845592088885,-1.033904213475714,-1.226208971667675,-0.969572451498834,-0.9989924614978888
+unseen_test,consistency_c4,augmentation_c4,-0.1626164397907042,-1.133458308678654,-0.38761759631002113,-0.37569328766162924,-0.5415121847723783

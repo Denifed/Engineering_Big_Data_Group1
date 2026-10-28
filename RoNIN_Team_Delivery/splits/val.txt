@@ -1,0 +1,13 @@
+train/a004_2.npz
+train/a021_1.npz
+train/a021_3.npz
+train/a025_1.npz
+train/a025_3.npz
+train/a030_1.npz
+train/a031_1.npz
+train/a031_3.npz
+train/a035_1.npz
+train/a047_1.npz
+train/a047_3.npz
+train/a059_1.npz
+train/a059_3.npz

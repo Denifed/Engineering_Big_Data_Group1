@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "data_files_sha256_verified": 152,
+  "sources_and_splits_unchanged": true,
+  "per_model_sequence_figures": 67,
+  "per_model_prediction_files": 67,
+  "comparison_sequence_figures": 67,
+  "gallery_placeholders_resolved": true
+}

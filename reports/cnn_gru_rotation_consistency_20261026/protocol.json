@@ -1,0 +1,48 @@
+{
+  "experiment": "frozen_cnn_gru_c4_yaw_ensemble_v1",
+  "source": "old shuffled-window CNN-GRU best epoch 8",
+  "angles_degrees": [
+    0,
+    90,
+    180,
+    270
+  ],
+  "ensemble": "inverse rotate four FP32 velocity outputs, equal average in float64",
+  "input": "rotate both gyro XY and acceleration XY about global Z; preserve Z and time",
+  "bn_conditions": [
+    "original",
+    "mixed",
+    "consecutive"
+  ],
+  "inference_conditions": [
+    "single",
+    "c4"
+  ],
+  "all_variants": [
+    "original_single",
+    "original_c4",
+    "mixed_single",
+    "mixed_c4",
+    "consecutive_single",
+    "consecutive_c4"
+  ],
+  "label_protocol": "window_mean_xy_velocity_v1",
+  "window_size": 200,
+  "step_size": 10,
+  "validation_batch_size": 256,
+  "test_batch_size": 512,
+  "data_splits": [
+    "val",
+    "seen_test",
+    "unseen_test"
+  ],
+  "primary_contrast": [
+    "original_single",
+    "original_c4"
+  ],
+  "secondary_contrast": "within each fixed BN state, single vs C4; report every condition",
+  "candidate_selection": "none; fixed angles and weights, all six conditions evaluated irrespective of validation gains",
+  "overall_improvement_rule": "both seen/unseen macro ATE lower; unseen endpoint, bias norm and velocity RMSE no worse than original_single",
+  "limitations": "exploratory reused tests; no new training, adaptation, sensor information, SE2 fit, or drift guarantee",
+  "metric_definition": "same official coordinate-wise ATE, 60s RTE and reconstruction; trajectory macro, velocity window weighted"
+}

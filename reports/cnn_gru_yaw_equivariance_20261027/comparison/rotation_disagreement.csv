@@ -1,0 +1,5 @@
+split,condition,rotation_disagreement_RMSE_mps
+seen_test,yaw_augmentation,0.1259065688728935
+seen_test,yaw_consistency,0.11863544077504008
+unseen_test,yaw_augmentation,0.16751568910514797
+unseen_test,yaw_consistency,0.15218976876838458

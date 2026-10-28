@@ -1,0 +1,11 @@
+# Preserve source bytes: frozen protocols record SHA256 of code and split files.
+# Automatic CRLF/LF conversion would invalidate those fingerprints.
+* -text
+*.npz binary
+*.npy binary
+*.pt binary
+*.pth binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.docx binary

@@ -1,0 +1,62 @@
+{
+  "condition": "mse_control",
+  "lambda_bias": 0.0,
+  "model": "cnn_gru",
+  "protocol": {
+    "window_size": 200,
+    "step_size": 10,
+    "batch_size": 256,
+    "epochs": 30,
+    "learning_rate": 0.0001,
+    "optimizer": "Adam",
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "eps": 1e-08,
+    "weight_decay": 0.0,
+    "amsgrad": false,
+    "loss": "velocity_MSE + lambda * mean_squared_time_normalized_prefix_residual",
+    "seed": 42,
+    "data_order": "CPU randperm over identical disjoint complete segments, seed=42+epoch-1",
+    "augmentation": false,
+    "standardization": false,
+    "scheduler": null,
+    "early_stopping": false,
+    "gradient_clipping": null,
+    "train_filter": "instantaneous speed >10 m/s anywhere in [start,end)",
+    "val_test_filter": false,
+    "precision": "float32",
+    "tf32": false,
+    "cudnn_benchmark": false,
+    "cudnn_deterministic": true,
+    "deterministic_algorithms": true,
+    "cublas_workspace_config": ":4096:8",
+    "label_protocol": "window_mean_xy_velocity_v1",
+    "label_formula": "(positions[end,:2]-positions[start,:2])/(timestamps[end]-timestamps[start])",
+    "selection": "minimum full-validation sequence-macro official ATE; first epoch wins ties",
+    "evaluation_batch_size": 512,
+    "reconstruction": "same official-style reconstruct() for both models",
+    "trajectory_metrics": "official coordinate-wise ATE and 60s RTE, sequence-macro mean",
+    "experiment": "consecutive_window_residual_bias_v1",
+    "segment_length": 64,
+    "segments_per_batch": 4,
+    "horizons": [
+      16,
+      32,
+      64
+    ],
+    "condition_weights": {
+      "mse_control": 0.0,
+      "bias_constraint": 1.0
+    },
+    "incomplete_segments": "drop incomplete tails per contiguous run; no padding or gap bridging",
+    "prediction_dt": "timestamps[start+10]-timestamps[start], not window duration",
+    "bias_metric": "sequence-macro norm of time-weighted mean velocity residual",
+    "interpretation": "overlapping window-mean residual penalty, not exact displacement supervision",
+    "smoke_only": false
+  },
+  "protocol_sha256": "82b497f4f441cc5ffe81b438df0c77ebd943db30f21794003d1b837ef36f8cb0",
+  "parameter_count": 78370,
+  "initialization_sha256": "075e8ba4a235978c91853354fe3637b76ff198a1fcf12d75ef2f7b7bf50b121c"
+}

@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "smoke_only": false,
+  "full_validation_checkpoints_recomputed": true,
+  "same_initialization_orders_rotations_steps": true,
+  "primary_MSE_selection_verified": true,
+  "all_new_persisted_predictions_recomputed": true,
+  "reference_labels_indices_times_gt_identical": true,
+  "all_old_predictions_reconstructed": true,
+  "original_artifacts_unchanged": true,
+  "all_data_files_unchanged": true,
+  "no_test_BN_updates": true,
+  "all_model_states_unchanged_during_test": true,
+  "new_prediction_files": 268,
+  "reference_sequences_per_route": 67
+}

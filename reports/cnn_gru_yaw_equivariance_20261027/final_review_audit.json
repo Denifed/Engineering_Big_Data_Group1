@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "both_models_30_epochs": true,
+  "both_primary_checkpoints_epoch22": true,
+  "nine_routes_67_test_sequences_each": true,
+  "new_prediction_files": 268,
+  "aligned_branch_files": 134,
+  "reference_and_training_source_fingerprints_verified": true,
+  "new_evaluation_analysis_benchmark_snapshot_verified": true,
+  "report_utf8_and_gallery_links_verified": true,
+  "root_summary_completed": true,
+  "report_sha256": "46c8a2927a0e06494830c4d87c5e057cce7276457d39bb67c604ddd3e008c5aa",
+  "benchmark_recheck_preserved_separately": true
+}

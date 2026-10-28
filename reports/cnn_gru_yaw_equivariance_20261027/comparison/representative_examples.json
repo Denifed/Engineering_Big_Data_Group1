@@ -1,0 +1,34 @@
+[
+  {
+    "split": "seen_test",
+    "sequence": "a022_2",
+    "type": "largest deterioration",
+    "ATE_augmentation": 8.38827562416001,
+    "ATE_consistency": 15.824213960894284,
+    "ATE_reduction_m": -7.435938336734274
+  },
+  {
+    "split": "seen_test",
+    "sequence": "a013_2",
+    "type": "largest reduction",
+    "ATE_augmentation": 10.100754995566524,
+    "ATE_consistency": 5.7286363751121785,
+    "ATE_reduction_m": 4.372118620454345
+  },
+  {
+    "split": "unseen_test",
+    "sequence": "a032_3",
+    "type": "largest deterioration",
+    "ATE_augmentation": 10.534145125851675,
+    "ATE_consistency": 18.855409812638324,
+    "ATE_reduction_m": -8.32126468678665
+  },
+  {
+    "split": "unseen_test",
+    "sequence": "a050_3",
+    "type": "largest reduction",
+    "ATE_augmentation": 19.462101563339452,
+    "ATE_consistency": 12.825032823184516,
+    "ATE_reduction_m": 6.637068740154936
+  }
+]

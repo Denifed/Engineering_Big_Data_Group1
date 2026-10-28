@@ -1,0 +1,16 @@
+{
+  "single": {
+    "batch_size": 256,
+    "median_batch_ms": 1.6358000575564802,
+    "p90_batch_ms": 2.257969998754561,
+    "median_ms_per_window": 0.006389843974830001
+  },
+  "c4": {
+    "batch_size": 256,
+    "median_batch_ms": 6.462949968408793,
+    "p90_batch_ms": 8.019630005583167,
+    "median_ms_per_window": 0.02524589831409685
+  },
+  "c4_to_single_median_ratio": 3.95094127705497,
+  "scope": "same validation inputs; warmed GPU; excludes disk, trajectory reconstruction and plotting"
+}

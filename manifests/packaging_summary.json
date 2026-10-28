@@ -1,0 +1,35 @@
+{
+  "created_on": "2026-10-28",
+  "files_copied": 4166,
+  "total_bytes": 7669424532,
+  "GiB": 7.143,
+  "copied_sha256_verified": true,
+  "source_files_untouched": true,
+  "source_size_mtime_unchanged_during_copy": true,
+  "role_counts": {
+    "cnn_baseline": 50,
+    "scripts": 2,
+    "ronin-master": 33,
+    "RoNIN_Team_Delivery": 168,
+    "results": 3634,
+    "legacy_document": 1,
+    "public_report": 278
+  },
+  "formal_experiments": [
+    "fixed_resnet18_vs_cnn_gru_20261025",
+    "cnn_gru_attention_fixed_20261026",
+    "cnn_three_routes_fixed_20261026",
+    "drift_loss_cnn_gru_20261026",
+    "bn_calibration_diagnosis_20261026",
+    "cnn_gru_rotation_consistency_20261026",
+    "cnn_gru_yaw_equivariance_20261027",
+    "ronin_resnet18_npz_20261025"
+  ],
+  "excluded": [
+    "editor settings",
+    "Git metadata",
+    "Python bytecode",
+    "presentation build directories"
+  ],
+  "note": "All result directories, including smoke and legacy runs, are preserved locally. Only selected reports are intended for ordinary Git tracking."
+}

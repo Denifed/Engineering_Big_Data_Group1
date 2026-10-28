@@ -1,0 +1,8 @@
+{
+  "python": "3.11.16 | packaged by Anaconda, Inc. | (main, Aug 27 2026, 14:36:16) [MSC v.1942 64 bit (AMD64)]",
+  "executable": "E:\\conda_envs\\torch_env\\python.exe",
+  "torch": "2.14.0+cu126",
+  "numpy": "1.23.5",
+  "cuda": "12.6",
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU"
+}

@@ -1,0 +1,7 @@
+{
+  "official_reconstruction_exact_match": true,
+  "max_difference": 0.0,
+  "smoke_train_save_reload_evaluate_plot": "passed",
+  "gpu_adapter_vs_cpu_window": "exact match on first real window",
+  "official_model_source_unchanged": true
+}

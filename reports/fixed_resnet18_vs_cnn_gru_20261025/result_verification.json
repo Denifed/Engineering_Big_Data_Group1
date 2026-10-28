@@ -1,0 +1,26 @@
+{
+  "resnet18/seen_test": {
+    "sequences_checked": 35,
+    "windows": 388054,
+    "saved_metrics_match": true,
+    "labels_times_indices_gt_identical_between_models": true
+  },
+  "resnet18/unseen_test": {
+    "sequences_checked": 32,
+    "windows": 364722,
+    "saved_metrics_match": true,
+    "labels_times_indices_gt_identical_between_models": true
+  },
+  "cnn_gru/seen_test": {
+    "sequences_checked": 35,
+    "windows": 388054,
+    "saved_metrics_match": true,
+    "labels_times_indices_gt_identical_between_models": true
+  },
+  "cnn_gru/unseen_test": {
+    "sequences_checked": 32,
+    "windows": 364722,
+    "saved_metrics_match": true,
+    "labels_times_indices_gt_identical_between_models": true
+  }
+}

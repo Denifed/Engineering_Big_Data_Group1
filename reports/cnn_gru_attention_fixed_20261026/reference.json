@@ -1,0 +1,17 @@
+{
+  "model": "cnn_gru_attention",
+  "parameter_count": 80482,
+  "model_config": {
+    "architecture": "cnn_gru_additive_temporal_attention_v1",
+    "in_channels": 6,
+    "output_dim": 2,
+    "hidden_size": 64,
+    "attention_size": 32,
+    "attention_axis": "GRU time dimension after CNN downsampling",
+    "pooling": "softmax-weighted sum of all GRU outputs"
+  },
+  "protocol_sha256": "106e280b8667d13b15d405aa5d603b3ad4f5a91809cc924dcb28deb30dcb3892",
+  "reference_run": "E:\\codex_ws\\handoff_cnn_baseline\\results\\fixed_resnet18_vs_cnn_gru_20261025",
+  "status": "reference_protocol_validated",
+  "note": "Data, split, window and order checks are recorded separately during training."
+}

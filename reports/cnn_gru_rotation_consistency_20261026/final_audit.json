@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "frozen_model_and_BN_states_unchanged": true,
+  "all_original_files_unchanged": 1071,
+  "changed_original_files": [],
+  "full_sequences_per_variant": {
+    "val": 13,
+    "seen_test": 35,
+    "unseen_test": 32
+  },
+  "full_windows_per_variant": {
+    "val": 136686,
+    "seen_test": 388054,
+    "unseen_test": 364722
+  },
+  "historical_test_predictions_exactly_reproduced": 67,
+  "all_480_predictions_reopened": true,
+  "primary_criteria_fixed_before_evaluation": true,
+  "no_training_or_test_adaptation": true,
+  "plot_files_verified": 82
+}

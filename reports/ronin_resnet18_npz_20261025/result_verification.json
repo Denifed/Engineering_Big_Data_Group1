@@ -1,0 +1,14 @@
+{
+  "seen_test": {
+    "sequences_checked": 35,
+    "windows": 388054,
+    "saved_prediction_metrics_match": true
+  },
+  "unseen_test": {
+    "sequences_checked": 32,
+    "windows": 364722,
+    "saved_prediction_metrics_match": true
+  },
+  "official_sources_unchanged": true,
+  "postprocessing_script_sha256": "10faf66a82838ab4796cf767d4f3ccfacf49f35e97a1a87be78125eabb98fa04"
+}

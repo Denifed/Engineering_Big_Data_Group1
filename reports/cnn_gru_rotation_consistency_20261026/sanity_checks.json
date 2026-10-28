@@ -1,0 +1,26 @@
+{
+  "original": {
+    "status": "passed",
+    "quarter_turn_composition_and_inverse": true,
+    "gyro_and_acceleration_rotated_together": true,
+    "z_preserved": true,
+    "equivariant_predictor_preserved": true,
+    "model_c4_equivariance_max_abs_mps": 0.0
+  },
+  "mixed": {
+    "status": "passed",
+    "quarter_turn_composition_and_inverse": true,
+    "gyro_and_acceleration_rotated_together": true,
+    "z_preserved": true,
+    "equivariant_predictor_preserved": true,
+    "model_c4_equivariance_max_abs_mps": 0.0
+  },
+  "consecutive": {
+    "status": "passed",
+    "quarter_turn_composition_and_inverse": true,
+    "gyro_and_acceleration_rotated_together": true,
+    "z_preserved": true,
+    "equivariant_predictor_preserved": true,
+    "model_c4_equivariance_max_abs_mps": 0.0
+  }
+}

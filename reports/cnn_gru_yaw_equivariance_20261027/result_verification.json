@@ -1,0 +1,74 @@
+[
+  {
+    "split": "seen_test",
+    "variant": "augmentation_single",
+    "sequences": 35,
+    "windows": 388054,
+    "metrics_recomputed": true,
+    "trajectories_reconstructed": true,
+    "branch_averages_recomputed": true
+  },
+  {
+    "split": "seen_test",
+    "variant": "augmentation_c4",
+    "sequences": 35,
+    "windows": 388054,
+    "metrics_recomputed": true,
+    "trajectories_reconstructed": true,
+    "branch_averages_recomputed": true
+  },
+  {
+    "split": "seen_test",
+    "variant": "consistency_single",
+    "sequences": 35,
+    "windows": 388054,
+    "metrics_recomputed": true,
+    "trajectories_reconstructed": true,
+    "branch_averages_recomputed": true
+  },
+  {
+    "split": "seen_test",
+    "variant": "consistency_c4",
+    "sequences": 35,
+    "windows": 388054,
+    "metrics_recomputed": true,
+    "trajectories_reconstructed": true,
+    "branch_averages_recomputed": true
+  },
+  {
+    "split": "unseen_test",
+    "variant": "augmentation_single",
+    "sequences": 32,
+    "windows": 364722,
+    "metrics_recomputed": true,
+    "trajectories_reconstructed": true,
+    "branch_averages_recomputed": true
+  },
+  {
+    "split": "unseen_test",
+    "variant": "augmentation_c4",
+    "sequences": 32,
+    "windows": 364722,
+    "metrics_recomputed": true,
+    "trajectories_reconstructed": true,
+    "branch_averages_recomputed": true
+  },
+  {
+    "split": "unseen_test",
+    "variant": "consistency_single",
+    "sequences": 32,
+    "windows": 364722,
+    "metrics_recomputed": true,
+    "trajectories_reconstructed": true,
+    "branch_averages_recomputed": true
+  },
+  {
+    "split": "unseen_test",
+    "variant": "consistency_c4",
+    "sequences": 32,
+    "windows": 364722,
+    "metrics_recomputed": true,
+    "trajectories_reconstructed": true,
+    "branch_averages_recomputed": true
+  }
+]

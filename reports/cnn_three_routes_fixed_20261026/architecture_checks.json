@@ -1,0 +1,12 @@
+{
+  "shared_cnn_initial_weights_equal": true,
+  "gru_attention_shared_layers_initial_weights_equal": true,
+  "parameter_counts": {
+    "cnn": 45218,
+    "cnn_gru": 78370,
+    "cnn_gru_attention": 80482
+  },
+  "cnn_aggregation": "global average over 50 convolutional timesteps; head 128->64->2",
+  "gru_aggregation": "final GRU hidden state; head 64->64->2",
+  "attention_aggregation": "attention-weighted GRU sequence; head 64->64->2"
+}

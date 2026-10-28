@@ -1,0 +1,42 @@
+{
+  "note": "Thresholds are review flags, not automatic exclusions. Sample-speed distribution is dominated by long sequences and overlapping frames.",
+  "thresholds": {
+    "speed_mps": 3,
+    "instant_acceleration_mps2": 15,
+    "label_error_mps": 0.001
+  },
+  "summary": [
+    {
+      "split": "train",
+      "files": 85,
+      "ok": 0,
+      "review": 85,
+      "errors": 0,
+      "total_frames": 9263475,
+      "frames_gt_3_estimated": 854,
+      "max_speed": 91.85863374301732
+    },
+    {
+      "split": "seen_test",
+      "files": 35,
+      "ok": 0,
+      "review": 35,
+      "errors": 0,
+      "total_frames": 3887384,
+      "frames_gt_3_estimated": 8,
+      "max_speed": 95.28854287494589
+    },
+    {
+      "split": "unseen_test",
+      "files": 32,
+      "ok": 0,
+      "review": 32,
+      "errors": 0,
+      "total_frames": 3653480,
+      "frames_gt_3_estimated": 0,
+      "max_speed": 2.2808424717767117
+    }
+  ],
+  "processed_sequences": 152,
+  "all_152_found": true
+}

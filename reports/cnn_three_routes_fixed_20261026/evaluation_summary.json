@@ -1,0 +1,72 @@
+{
+  "status": "completed",
+  "protocol_sha256": "106e280b8667d13b15d405aa5d603b3ad4f5a91809cc924dcb28deb30dcb3892",
+  "test_metrics": [
+    {
+      "split": "seen_test",
+      "model": "cnn",
+      "sequences": 35,
+      "windows": 388054,
+      "MSE": 0.04637267095100103,
+      "RMSE": 0.2153431469794222,
+      "MAE": 0.14485238705573772,
+      "ATE_official_m": 7.708800059842776,
+      "RTE_60s_official_m": 4.537304164859974
+    },
+    {
+      "split": "seen_test",
+      "model": "cnn_gru",
+      "sequences": 35,
+      "windows": 388054,
+      "MSE": 0.04365635067627226,
+      "RMSE": 0.20894102200446962,
+      "MAE": 0.13587135421499724,
+      "ATE_official_m": 7.088169339118192,
+      "RTE_60s_official_m": 4.208688090706455
+    },
+    {
+      "split": "seen_test",
+      "model": "cnn_gru_attention",
+      "sequences": 35,
+      "windows": 388054,
+      "MSE": 0.04378455102028786,
+      "RMSE": 0.2092475830691668,
+      "MAE": 0.13430308253355688,
+      "ATE_official_m": 7.2226122838600295,
+      "RTE_60s_official_m": 4.106657265830463
+    },
+    {
+      "split": "unseen_test",
+      "model": "cnn",
+      "sequences": 32,
+      "windows": 364722,
+      "MSE": 0.09148681663386014,
+      "RMSE": 0.30246787702805755,
+      "MAE": 0.20147748940257412,
+      "ATE_official_m": 10.441111154383922,
+      "RTE_60s_official_m": 6.844990925403791
+    },
+    {
+      "split": "unseen_test",
+      "model": "cnn_gru",
+      "sequences": 32,
+      "windows": 364722,
+      "MSE": 0.08860705065884546,
+      "RMSE": 0.2976693646629519,
+      "MAE": 0.1935474145990173,
+      "ATE_official_m": 9.046774619374876,
+      "RTE_60s_official_m": 6.227466578217449
+    },
+    {
+      "split": "unseen_test",
+      "model": "cnn_gru_attention",
+      "sequences": 32,
+      "windows": 364722,
+      "MSE": 0.08874279038469389,
+      "RMSE": 0.2978972816000406,
+      "MAE": 0.1900535484032435,
+      "ATE_official_m": 10.228555001407067,
+      "RTE_60s_official_m": 6.359772660685329
+    }
+  ]
+}

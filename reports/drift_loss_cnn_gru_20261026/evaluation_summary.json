@@ -1,0 +1,85 @@
+{
+  "status": "completed",
+  "test_metrics": [
+    {
+      "split": "seen_test",
+      "condition": "mse_control",
+      "sequences": 35,
+      "windows": 388054,
+      "MSE": 0.04405305871272335,
+      "RMSE": 0.20988820527300564,
+      "MAE": 0.13780776831404618,
+      "ATE_official_m": 7.240942914824817,
+      "RTE_60s_official_m": 4.296535016256149,
+      "endpoint_error_m": 12.324788774101362,
+      "mean_velocity_bias_norm_mps": 0.023087090395389483
+    },
+    {
+      "split": "seen_test",
+      "condition": "bias_constraint",
+      "sequences": 35,
+      "windows": 388054,
+      "MSE": 0.04389050852986091,
+      "RMSE": 0.20950061701546588,
+      "MAE": 0.13668623124546164,
+      "ATE_official_m": 6.566890347116315,
+      "RTE_60s_official_m": 3.9172467670957296,
+      "endpoint_error_m": 12.054402238960572,
+      "mean_velocity_bias_norm_mps": 0.02144403855540261
+    },
+    {
+      "split": "unseen_test",
+      "condition": "mse_control",
+      "sequences": 32,
+      "windows": 364722,
+      "MSE": 0.08941706585317591,
+      "RMSE": 0.29902686476832796,
+      "MAE": 0.19421413812692126,
+      "ATE_official_m": 11.503202119425813,
+      "RTE_60s_official_m": 6.509325215579697,
+      "endpoint_error_m": 21.999626415458366,
+      "mean_velocity_bias_norm_mps": 0.039077295906222796
+    },
+    {
+      "split": "unseen_test",
+      "condition": "bias_constraint",
+      "sequences": 32,
+      "windows": 364722,
+      "MSE": 0.09058653993546625,
+      "RMSE": 0.30097597900076056,
+      "MAE": 0.19168080681902683,
+      "ATE_official_m": 11.098028777742163,
+      "RTE_60s_official_m": 6.096555523153722,
+      "endpoint_error_m": 23.293913191311063,
+      "mean_velocity_bias_norm_mps": 0.039786072540678535
+    }
+  ],
+  "historical_context": [
+    {
+      "split": "seen_test",
+      "condition": "historical",
+      "sequences": 35,
+      "windows": 388054,
+      "MSE": 0.04365635067627226,
+      "RMSE": 0.20894102200446962,
+      "MAE": 0.13587135421499724,
+      "ATE_official_m": 7.088169339118192,
+      "RTE_60s_official_m": 4.208688090706455,
+      "endpoint_error_m": 14.798570320058483,
+      "mean_velocity_bias_norm_mps": 0.02678540520863666
+    },
+    {
+      "split": "unseen_test",
+      "condition": "historical",
+      "sequences": 32,
+      "windows": 364722,
+      "MSE": 0.08860705065884546,
+      "RMSE": 0.2976693646629519,
+      "MAE": 0.1935474145990173,
+      "ATE_official_m": 9.046774619374876,
+      "RTE_60s_official_m": 6.227466578217449,
+      "endpoint_error_m": 19.054199125464194,
+      "mean_velocity_bias_norm_mps": 0.03286787845610588
+    }
+  ]
+}

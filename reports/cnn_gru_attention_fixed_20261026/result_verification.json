@@ -1,0 +1,20 @@
+{
+  "seen_test": {
+    "sequences_checked": 35,
+    "windows": 388054,
+    "saved_metrics_match": true,
+    "attention_weights_finite_nonnegative_normalized": true,
+    "baseline_metrics_recomputed": true,
+    "labels_times_indices_gt_identical_between_models": true,
+    "reconstructed_baseline_positions_identical": true
+  },
+  "unseen_test": {
+    "sequences_checked": 32,
+    "windows": 364722,
+    "saved_metrics_match": true,
+    "attention_weights_finite_nonnegative_normalized": true,
+    "baseline_metrics_recomputed": true,
+    "labels_times_indices_gt_identical_between_models": true,
+    "reconstructed_baseline_positions_identical": true
+  }
+}

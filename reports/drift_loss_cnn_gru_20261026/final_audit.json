@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "reference_directories_unchanged": {
+    "E:\\codex_ws\\handoff_cnn_baseline\\results\\fixed_resnet18_vs_cnn_gru_20261025": 390,
+    "E:\\codex_ws\\handoff_cnn_baseline\\results\\cnn_gru_attention_fixed_20261026": 320,
+    "E:\\codex_ws\\handoff_cnn_baseline\\results\\cnn_three_routes_fixed_20261026": 256
+  },
+  "total_reference_files_unchanged": 966,
+  "training_sources_and_splits_unchanged": true,
+  "conditions": {
+    "mse_control": {
+      "best_epoch": 15,
+      "last_epoch": 30,
+      "test_predictions": 67,
+      "sequence_plots": 67
+    },
+    "bias_constraint": {
+      "best_epoch": 22,
+      "last_epoch": 30,
+      "test_predictions": 67,
+      "sequence_plots": 67
+    }
+  },
+  "all_png_files_valid": 205,
+  "comparison_plots": 67,
+  "saved_test_metrics_and_residual_diagnostics_recomputed": true,
+  "full_validation_ATE_selection_recomputed": true,
+  "test_windows_per_condition": 752776,
+  "gallery_static_links_exist": true,
+  "protocol_sha256": "82b497f4f441cc5ffe81b438df0c77ebd943db30f21794003d1b837ef36f8cb0"
+}

@@ -1,0 +1,27 @@
+{
+  "model": "cnn",
+  "parameter_count": 45218,
+  "model_config": {
+    "architecture": "cnn_3conv_global_average_pool_v1",
+    "channels": [
+      32,
+      64,
+      128
+    ],
+    "kernels": [
+      7,
+      5,
+      3
+    ],
+    "pooling": "global average",
+    "regression_head": [
+      128,
+      64,
+      2
+    ]
+  },
+  "protocol_sha256": "106e280b8667d13b15d405aa5d603b3ad4f5a91809cc924dcb28deb30dcb3892",
+  "reference_run": "E:\\codex_ws\\handoff_cnn_baseline\\results\\fixed_resnet18_vs_cnn_gru_20261025",
+  "status": "reference_protocol_validated",
+  "note": "Data, split, window and order checks are recorded separately during training."
+}

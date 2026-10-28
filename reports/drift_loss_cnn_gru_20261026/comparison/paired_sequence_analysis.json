@@ -1,0 +1,188 @@
+{
+  "seen_test": {
+    "sequences": 35,
+    "metrics": {
+      "RMSE": {
+        "improved": 19,
+        "worse": 16,
+        "control_median": 0.19394336742672524,
+        "constraint_median": 0.1871719946478054,
+        "control_p90": 0.26640106779451284,
+        "constraint_p90": 0.27888289303425523
+      },
+      "MAE": {
+        "improved": 19,
+        "worse": 16,
+        "control_median": 0.13372762066071825,
+        "constraint_median": 0.128874311582154,
+        "control_p90": 0.1766059095042933,
+        "constraint_p90": 0.18252175490338776
+      },
+      "ATE_official_m": {
+        "improved": 21,
+        "worse": 14,
+        "control_median": 6.554204449998513,
+        "constraint_median": 6.00868189920203,
+        "control_p90": 11.009644332363923,
+        "constraint_p90": 10.611508901346268
+      },
+      "RTE_60s_official_m": {
+        "improved": 28,
+        "worse": 7,
+        "control_median": 3.9460155020079486,
+        "constraint_median": 3.6296511255368404,
+        "control_p90": 5.907194346692821,
+        "constraint_p90": 5.626925843707184
+      },
+      "endpoint_error_m": {
+        "improved": 14,
+        "worse": 21,
+        "control_median": 11.223745760599005,
+        "constraint_median": 11.501885879332601,
+        "control_p90": 22.76345924782811,
+        "constraint_p90": 19.707214993590537
+      },
+      "mean_velocity_bias_norm_mps": {
+        "improved": 14,
+        "worse": 21,
+        "control_median": 0.020350130594299434,
+        "constraint_median": 0.02128649658370032,
+        "control_p90": 0.04191081896901406,
+        "constraint_p90": 0.03636143059944574
+      }
+    },
+    "largest_ATE_improvements": [
+      {
+        "sequence": "a012_2",
+        "ATE_control": 16.412508842986064,
+        "ATE_constraint": 7.94734331141956,
+        "ATE_delta": -8.465165531566504
+      },
+      {
+        "sequence": "a000_11",
+        "ATE_control": 9.947019066321854,
+        "ATE_constraint": 3.5002176761424306,
+        "ATE_delta": -6.446801390179424
+      },
+      {
+        "sequence": "a025_2",
+        "ATE_control": 13.995780318027824,
+        "ATE_constraint": 8.12699169560941,
+        "ATE_delta": -5.868788622418414
+      }
+    ],
+    "largest_ATE_degradations": [
+      {
+        "sequence": "a013_2",
+        "ATE_control": 9.630886610524344,
+        "ATE_constraint": 18.561346144592992,
+        "ATE_delta": 8.930459534068648
+      },
+      {
+        "sequence": "a018_1",
+        "ATE_control": 5.612402167178103,
+        "ATE_constraint": 9.186067366959747,
+        "ATE_delta": 3.5736651997816447
+      },
+      {
+        "sequence": "a037_1",
+        "ATE_control": 1.7858781534350365,
+        "ATE_constraint": 5.079816031890734,
+        "ATE_delta": 3.293937878455697
+      }
+    ]
+  },
+  "unseen_test": {
+    "sequences": 32,
+    "metrics": {
+      "RMSE": {
+        "improved": 20,
+        "worse": 12,
+        "control_median": 0.2458233513788442,
+        "constraint_median": 0.2497623298815942,
+        "control_p90": 0.3923140557886138,
+        "constraint_p90": 0.37805725921011857
+      },
+      "MAE": {
+        "improved": 22,
+        "worse": 10,
+        "control_median": 0.16414791332771606,
+        "constraint_median": 0.15864268707159818,
+        "control_p90": 0.2833346205009575,
+        "constraint_p90": 0.27022852584745377
+      },
+      "ATE_official_m": {
+        "improved": 21,
+        "worse": 11,
+        "control_median": 8.308904845598896,
+        "constraint_median": 7.088243082551428,
+        "control_p90": 19.124728131566982,
+        "constraint_p90": 20.611199485698965
+      },
+      "RTE_60s_official_m": {
+        "improved": 21,
+        "worse": 11,
+        "control_median": 5.46580070369867,
+        "constraint_median": 5.468314329878291,
+        "control_p90": 11.218519590820954,
+        "constraint_p90": 10.96566984581832
+      },
+      "endpoint_error_m": {
+        "improved": 19,
+        "worse": 13,
+        "control_median": 17.279114969040297,
+        "constraint_median": 17.130362984400062,
+        "control_p90": 38.347898466860656,
+        "constraint_p90": 46.236943323419666
+      },
+      "mean_velocity_bias_norm_mps": {
+        "improved": 19,
+        "worse": 13,
+        "control_median": 0.03023980386003517,
+        "constraint_median": 0.031573856936769576,
+        "control_p90": 0.06456616462135528,
+        "constraint_p90": 0.07070776014274265
+      }
+    },
+    "largest_ATE_improvements": [
+      {
+        "sequence": "a024_1",
+        "ATE_control": 11.807629697666659,
+        "ATE_constraint": 6.298327779795791,
+        "ATE_delta": -5.509301917870868
+      },
+      {
+        "sequence": "a057_3",
+        "ATE_control": 19.326548254394815,
+        "ATE_constraint": 14.125178383948947,
+        "ATE_delta": -5.201369870445868
+      },
+      {
+        "sequence": "a057_1",
+        "ATE_control": 16.51366939171142,
+        "ATE_constraint": 11.45620378600638,
+        "ATE_delta": -5.0574656057050404
+      }
+    ],
+    "largest_ATE_degradations": [
+      {
+        "sequence": "a032_3",
+        "ATE_control": 9.695069693179681,
+        "ATE_constraint": 30.899346228227586,
+        "ATE_delta": 21.204276535047903
+      },
+      {
+        "sequence": "a055_3",
+        "ATE_control": 53.83234103274695,
+        "ATE_constraint": 58.09772627965889,
+        "ATE_delta": 4.26538524691194
+      },
+      {
+        "sequence": "a058_2",
+        "ATE_control": 10.978985617579033,
+        "ATE_constraint": 13.297532127165509,
+        "ATE_delta": 2.3185465095864757
+      }
+    ]
+  }
+}

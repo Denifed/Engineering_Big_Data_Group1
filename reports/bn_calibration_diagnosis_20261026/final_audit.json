@@ -1,0 +1,156 @@
+{
+  "status": "passed",
+  "no_backward_or_optimizer": true,
+  "no_test_set_access": true,
+  "training_data_only_for_calibration": true,
+  "identical_windows_and_full_batches": true,
+  "validation_used_eval_mode_and_frozen_state": true,
+  "all_learned_parameters_unchanged": true,
+  "six_calibrated_checkpoints_reloaded": true,
+  "nine_persisted_prediction_metrics_recomputed": true,
+  "original_artifacts_verified_unchanged": 913,
+  "changed_original_files": [],
+  "checks": [
+    {
+      "model": "old_random_mse",
+      "variant": "original",
+      "learned_parameters_unchanged": true,
+      "parameter_sha256": "c7a49c99f8c7e10c98edde8f0a0ffe223e3281e816c102efacba94235a653413",
+      "changed_state_keys": [],
+      "validation_did_not_change_state": true,
+      "calibrated_checkpoint_reload_passed": false
+    },
+    {
+      "model": "old_random_mse",
+      "variant": "mixed_windows",
+      "learned_parameters_unchanged": true,
+      "parameter_sha256": "c7a49c99f8c7e10c98edde8f0a0ffe223e3281e816c102efacba94235a653413",
+      "changed_state_keys": [
+        "cnn.1.running_mean",
+        "cnn.1.running_var",
+        "cnn.1.num_batches_tracked",
+        "cnn.5.running_mean",
+        "cnn.5.running_var",
+        "cnn.5.num_batches_tracked",
+        "cnn.9.running_mean",
+        "cnn.9.running_var",
+        "cnn.9.num_batches_tracked"
+      ],
+      "validation_did_not_change_state": true,
+      "calibrated_checkpoint_reload_passed": true
+    },
+    {
+      "model": "old_random_mse",
+      "variant": "consecutive_segments",
+      "learned_parameters_unchanged": true,
+      "parameter_sha256": "c7a49c99f8c7e10c98edde8f0a0ffe223e3281e816c102efacba94235a653413",
+      "changed_state_keys": [
+        "cnn.1.running_mean",
+        "cnn.1.running_var",
+        "cnn.1.num_batches_tracked",
+        "cnn.5.running_mean",
+        "cnn.5.running_var",
+        "cnn.5.num_batches_tracked",
+        "cnn.9.running_mean",
+        "cnn.9.running_var",
+        "cnn.9.num_batches_tracked"
+      ],
+      "validation_did_not_change_state": true,
+      "calibrated_checkpoint_reload_passed": true
+    },
+    {
+      "model": "consecutive_mse",
+      "variant": "original",
+      "learned_parameters_unchanged": true,
+      "parameter_sha256": "a048c4da746a215da039605f7e0a0302b1e3a1d15814d8eeb3e3b0389db4ca3f",
+      "changed_state_keys": [],
+      "validation_did_not_change_state": true,
+      "calibrated_checkpoint_reload_passed": false
+    },
+    {
+      "model": "consecutive_mse",
+      "variant": "mixed_windows",
+      "learned_parameters_unchanged": true,
+      "parameter_sha256": "a048c4da746a215da039605f7e0a0302b1e3a1d15814d8eeb3e3b0389db4ca3f",
+      "changed_state_keys": [
+        "cnn.1.running_mean",
+        "cnn.1.running_var",
+        "cnn.1.num_batches_tracked",
+        "cnn.5.running_mean",
+        "cnn.5.running_var",
+        "cnn.5.num_batches_tracked",
+        "cnn.9.running_mean",
+        "cnn.9.running_var",
+        "cnn.9.num_batches_tracked"
+      ],
+      "validation_did_not_change_state": true,
+      "calibrated_checkpoint_reload_passed": true
+    },
+    {
+      "model": "consecutive_mse",
+      "variant": "consecutive_segments",
+      "learned_parameters_unchanged": true,
+      "parameter_sha256": "a048c4da746a215da039605f7e0a0302b1e3a1d15814d8eeb3e3b0389db4ca3f",
+      "changed_state_keys": [
+        "cnn.1.running_mean",
+        "cnn.1.running_var",
+        "cnn.1.num_batches_tracked",
+        "cnn.5.running_mean",
+        "cnn.5.running_var",
+        "cnn.5.num_batches_tracked",
+        "cnn.9.running_mean",
+        "cnn.9.running_var",
+        "cnn.9.num_batches_tracked"
+      ],
+      "validation_did_not_change_state": true,
+      "calibrated_checkpoint_reload_passed": true
+    },
+    {
+      "model": "consecutive_bias",
+      "variant": "original",
+      "learned_parameters_unchanged": true,
+      "parameter_sha256": "d929fbef982c03b2752070141b0c1bbb39bf0723d0f9bdd48e826fda7237ced1",
+      "changed_state_keys": [],
+      "validation_did_not_change_state": true,
+      "calibrated_checkpoint_reload_passed": false
+    },
+    {
+      "model": "consecutive_bias",
+      "variant": "mixed_windows",
+      "learned_parameters_unchanged": true,
+      "parameter_sha256": "d929fbef982c03b2752070141b0c1bbb39bf0723d0f9bdd48e826fda7237ced1",
+      "changed_state_keys": [
+        "cnn.1.running_mean",
+        "cnn.1.running_var",
+        "cnn.1.num_batches_tracked",
+        "cnn.5.running_mean",
+        "cnn.5.running_var",
+        "cnn.5.num_batches_tracked",
+        "cnn.9.running_mean",
+        "cnn.9.running_var",
+        "cnn.9.num_batches_tracked"
+      ],
+      "validation_did_not_change_state": true,
+      "calibrated_checkpoint_reload_passed": true
+    },
+    {
+      "model": "consecutive_bias",
+      "variant": "consecutive_segments",
+      "learned_parameters_unchanged": true,
+      "parameter_sha256": "d929fbef982c03b2752070141b0c1bbb39bf0723d0f9bdd48e826fda7237ced1",
+      "changed_state_keys": [
+        "cnn.1.running_mean",
+        "cnn.1.running_var",
+        "cnn.1.num_batches_tracked",
+        "cnn.5.running_mean",
+        "cnn.5.running_var",
+        "cnn.5.num_batches_tracked",
+        "cnn.9.running_mean",
+        "cnn.9.running_var",
+        "cnn.9.num_batches_tracked"
+      ],
+      "validation_did_not_change_state": true,
+      "calibrated_checkpoint_reload_passed": true
+    }
+  ]
+}

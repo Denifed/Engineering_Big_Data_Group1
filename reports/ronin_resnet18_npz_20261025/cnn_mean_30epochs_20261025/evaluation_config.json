@@ -1,0 +1,11 @@
+{
+  "script_sha256": "9d1a5503e5ce64baf90c76129f124df04ebfbdf60c6c581f72b36a53d64a6f06",
+  "cnn_checkpoint_sha256": "c4e6933d4760507ced5cef64e48aefc3e4aea52938913f17fa3131a8699259d5",
+  "resnet_run": "E:\\codex_ws\\handoff_cnn_baseline\\results\\ronin_resnet18_npz_20261025",
+  "label_protocol": "window_mean_xy_velocity_v1",
+  "trajectory_function": "scripts/run_ronin_npz_baseline.py:reconstruct",
+  "metric_function": "ronin-master/source/metric.py:compute_ate_rte",
+  "test_filter_outliers": false,
+  "scripts\\run_ronin_npz_baseline.py": "515b3459ee5ad2166170acad7e9ac22375a617705b51b39a811dd6ce48c6c3bb",
+  "ronin-master\\source\\metric.py": "38aecfe9e5266d87d11ec70e781bfbcb6dcb2150392e58959e7a5283056ee005"
+}

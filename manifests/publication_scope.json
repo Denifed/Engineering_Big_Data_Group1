@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-28",
+  "repository": "https://github.com/Denifed/Engineering_Big_Data_Group1",
+  "code_license": "GPL-3.0-only",
+  "included": [
+    "source code",
+    "documentation",
+    "fixed sequence lists",
+    "metadata and checksums",
+    "aggregate metrics",
+    "summary figures"
+  ],
+  "excluded": [
+    "raw or processed datasets",
+    "reference trajectory arrays",
+    "trained model checkpoints",
+    "complete window predictions",
+    "complete run archives"
+  ],
+  "binary_artifacts_uploaded": false
+}

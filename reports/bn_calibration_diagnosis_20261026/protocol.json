@@ -1,0 +1,19 @@
+{
+  "experiment": "bn_calibration_diagnosis_v1",
+  "calibration_split": "train only",
+  "evaluation_split": "full validation only; no test access",
+  "batch_size": 256,
+  "seed": 20261026,
+  "segment_length": 64,
+  "layouts": [
+    "mixed_windows",
+    "consecutive_segments"
+  ],
+  "window_set": "identical complete segments from original training pool; discard two permuted segments for full batches",
+  "bn_update": "reset buffers, momentum=None, one pass; only BN layers train, all learned parameters frozen",
+  "selection": "no checkpoint, layout or calibration hyperparameter selection; report all nine conditions",
+  "validation_batch_size": 256,
+  "precision": "FP32",
+  "deterministic": true,
+  "interpretation": "inference BN buffer intervention; cannot isolate BN effects on training gradients"
+}

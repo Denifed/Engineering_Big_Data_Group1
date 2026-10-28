@@ -1,0 +1,144 @@
+{
+  "status": "completed",
+  "protocol_sha256": "106e280b8667d13b15d405aa5d603b3ad4f5a91809cc924dcb28deb30dcb3892",
+  "training": {
+    "resnet18": {
+      "status": "completed",
+      "model": "resnet18",
+      "epochs_completed": 30,
+      "best_epoch": 13,
+      "best_val_mse": 0.08518215943324177,
+      "parameter_count": 4634882,
+      "protocol_sha256": "106e280b8667d13b15d405aa5d603b3ad4f5a91809cc924dcb28deb30dcb3892",
+      "checkpoint_reload_passed": true,
+      "training_wall_seconds": 7050.82906139968,
+      "test_metrics": [
+        {
+          "split": "seen_test",
+          "model": "resnet18",
+          "sequences": 35,
+          "windows": 388054,
+          "MSE": 0.035563806585657276,
+          "RMSE": 0.18858368589477,
+          "MAE": 0.11628644977076322,
+          "ATE_official_m": 5.468435118095496,
+          "RTE_60s_official_m": 3.6483539420918403
+        },
+        {
+          "split": "unseen_test",
+          "model": "resnet18",
+          "sequences": 32,
+          "windows": 364722,
+          "MSE": 0.07484390731884755,
+          "RMSE": 0.27357614537610464,
+          "MAE": 0.17087036750628667,
+          "ATE_official_m": 9.895097919977893,
+          "RTE_60s_official_m": 5.817574867245668
+        }
+      ]
+    },
+    "cnn_gru": {
+      "status": "completed",
+      "model": "cnn_gru",
+      "epochs_completed": 30,
+      "best_epoch": 8,
+      "best_val_mse": 0.09112468514493993,
+      "parameter_count": 78370,
+      "protocol_sha256": "106e280b8667d13b15d405aa5d603b3ad4f5a91809cc924dcb28deb30dcb3892",
+      "checkpoint_reload_passed": true,
+      "training_wall_seconds": 2586.047732400126,
+      "test_metrics": [
+        {
+          "split": "seen_test",
+          "model": "cnn_gru",
+          "sequences": 35,
+          "windows": 388054,
+          "MSE": 0.04365635067627226,
+          "RMSE": 0.20894102200446962,
+          "MAE": 0.13587135421499724,
+          "ATE_official_m": 7.088169339118192,
+          "RTE_60s_official_m": 4.208688090706455
+        },
+        {
+          "split": "unseen_test",
+          "model": "cnn_gru",
+          "sequences": 32,
+          "windows": 364722,
+          "MSE": 0.08860705065884546,
+          "RMSE": 0.2976693646629519,
+          "MAE": 0.1935474145990173,
+          "ATE_official_m": 9.046774619374876,
+          "RTE_60s_official_m": 6.227466578217449
+        }
+      ]
+    }
+  },
+  "test_metrics": [
+    {
+      "split": "seen_test",
+      "model": "resnet18",
+      "sequences": 35,
+      "windows": 388054,
+      "MSE": 0.035563806585657276,
+      "RMSE": 0.18858368589477,
+      "MAE": 0.11628644977076322,
+      "ATE_official_m": 5.468435118095496,
+      "RTE_60s_official_m": 3.6483539420918403
+    },
+    {
+      "split": "seen_test",
+      "model": "cnn_gru",
+      "sequences": 35,
+      "windows": 388054,
+      "MSE": 0.04365635067627226,
+      "RMSE": 0.20894102200446962,
+      "MAE": 0.13587135421499724,
+      "ATE_official_m": 7.088169339118192,
+      "RTE_60s_official_m": 4.208688090706455
+    },
+    {
+      "split": "seen_test",
+      "model": "zero_velocity",
+      "sequences": 35,
+      "windows": 388054,
+      "MSE": 0.36063771529193567,
+      "RMSE": 0.6005311942704855,
+      "MAE": 0.4302355104651978,
+      "ATE_official_m": null,
+      "RTE_60s_official_m": null
+    },
+    {
+      "split": "unseen_test",
+      "model": "resnet18",
+      "sequences": 32,
+      "windows": 364722,
+      "MSE": 0.07484390731884755,
+      "RMSE": 0.27357614537610464,
+      "MAE": 0.17087036750628667,
+      "ATE_official_m": 9.895097919977893,
+      "RTE_60s_official_m": 5.817574867245668
+    },
+    {
+      "split": "unseen_test",
+      "model": "cnn_gru",
+      "sequences": 32,
+      "windows": 364722,
+      "MSE": 0.08860705065884546,
+      "RMSE": 0.2976693646629519,
+      "MAE": 0.1935474145990173,
+      "ATE_official_m": 9.046774619374876,
+      "RTE_60s_official_m": 6.227466578217449
+    },
+    {
+      "split": "unseen_test",
+      "model": "zero_velocity",
+      "sequences": 32,
+      "windows": 364722,
+      "MSE": 0.42827879988929185,
+      "RMSE": 0.6544301336959445,
+      "MAE": 0.4790979692436623,
+      "ATE_official_m": null,
+      "RTE_60s_official_m": null
+    }
+  ]
+}
