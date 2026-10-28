@@ -72,7 +72,9 @@ CNN 到 CNN-GRU 同时改变模型容量和回归头输入维度，应称为结�
 
 完整五项指标、逐序列变化、失败案例和协议见 [reports](reports/README.md)。
 
-![三路线测试结果](reports/cnn_three_routes_fixed_20261026/comparison/test_summary.png)
+下图对比旧 CNN-GRU 单次推理、同一旧模型的 CNN-GRU+C4，以及 A+C4。A 表示旋转增强训练（不含一致性损失），C4 表示四方向预测逆旋转后等权平均。三项指标均为越低越好。
+
+![旧CNN-GRU、CNN-GRU+C4和A+C4的RMSE、ATE及60秒RTE对比](reports/cnn_gru_yaw_equivariance_20261027/comparison/gru_c4_augmentation_comparison.png)
 
 ## 目录
 
